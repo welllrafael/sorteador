@@ -1,0 +1,32 @@
+mat-grid-tile {
+    background: lightblue;
+  }
+
+.example-card {
+    max-width: 400px;
+    max-height: 100%;
+  }
+  
+.example-header-image {
+    /* background-image: url('https://drive.google.com/file/d/1wpeY5m7iHiOuB-aXITPMYEl197XXV2yA/view?usp=sharing'); */
+    background-size: cover;
+  }
+  
+
+button {
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+img {
+    height: 75%;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+}

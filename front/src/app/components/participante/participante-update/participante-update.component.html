@@ -1,0 +1,21 @@
+<mat-card>
+    <mat-card-title>
+        Alterar Participante
+    </mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome" [(ngModel)]="participante.name" name="name">  
+        </mat-form-field>
+        <section class="example-section">
+            <mat-checkbox class="example-margin" [(ngModel)]="participante.sorteado" name="sorteado" labelPosition="before">
+                Sorteado
+            </mat-checkbox>        
+        </section>
+    </form>
+</mat-card>
+<button mat-raised-button (click)="updateParticipante()" color="warn">
+    Atualizar
+</button>
+<button mat-raised-button (click)="cancel()">
+    Cancelar
+</button>
