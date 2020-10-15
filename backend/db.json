@@ -1,0 +1,24 @@
+{
+  "participante": [
+    {
+      "id": 1,
+      "name": "Wellington",
+      "sorteado": false
+    },
+    {
+      "id": 2,
+      "name": "Leandro_Rambo",
+      "sorteado": false
+    },
+    {
+      "id": 3,
+      "name": "Julyana",
+      "sorteado": false
+    },
+    {
+      "id": 4,
+      "name": "Mateus",
+      "sorteado": false
+    }
+  ]
+}
