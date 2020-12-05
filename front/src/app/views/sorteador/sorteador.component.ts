@@ -11,12 +11,12 @@ import { Router } from '@angular/router';
   styleUrls: ['./sorteador.component.css']
 })
 export class SorteadorComponent implements OnInit {
-  imagens: string[] = ['foca.png', 'macaco.png', 'papagaio.png', 'urso.png'];
+  imagens: string[] //= ['foca.png', 'macaco.png', 'papagaio.png', 'urso.png'];
   participantes: Participante[]
   participanteFacilitador: Participante
   participanteEscriba: Participante
-  facilitador: string = 'assets/img/semfoto.png'
-  escriba: string = 'assets/img/semfoto.png'
+  facilitador: string = 'assets/img/usuario_natal.png'
+  escriba: string = 'assets/img/usuario_natal.png'
   nomeFacilitador: string = this.facilitador.substring(11).replace('.png','') 
   nomeEscriba: string = this.escriba.substring(11).replace('.png','')
   constructor(private headerService: HeaderService,
@@ -64,7 +64,7 @@ export class SorteadorComponent implements OnInit {
   }
 
   formatarTag(img: string): string{
-    return 'assets/participantes/Dev_mirim/'+ img + '.png' ;
+    return 'assets/participantes/Dev/'+ img + '.png' ;
   }
 
   confirmarSorteio(): void{
